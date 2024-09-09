@@ -1,0 +1,354 @@
+.logo-container {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.logo {
+    margin: 12px;
+    margin-left: 50px;
+    align-items: flex-end;
+}
+
+.login {
+    margin: 12px;
+    margin-right: 50px;
+    position: absolute;
+    right: 10px;
+    border-width: 0.5rem;
+}
+
+.lgn-btn {
+    color: rgb(10, 7, 88);
+    background-color: rgb(253, 252, 250);
+    border-radius: 5px;
+    padding: 11.004px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-content {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    background-color: #ffffff;
+    height: 450px;
+    border-radius: 20px;
+    margin: 0px 42px 56px 0px;
+    padding: 1px 15px 10px 15px;
+    max-width: 450px;
+    border: 1px solid #E8EEF8;
+}
+
+.rgt-text {
+    font-size: 28px;
+    margin-bottom: -35px;
+}
+
+.line {
+    border-right: solid;
+    margin-right: 6px
+}
+
+.emi {
+    margin: 10px;
+    color: #114A91;
+    font-family: "Avenir Next Bold";
+}
+
+.mob {
+    margin: 10px;
+    font-family: "Avenir Next Bold";
+}
+
+.num_input {
+    margin: 15px 15px 10px 10px;
+}
+
+.mobnum {
+    font-size: large;
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.ent-otp {
+    margin: 15px 0px 10px 0px;
+}
+
+.otp {
+    margin: 15px 0px 10px 0px;
+    display: flex;
+    gap: 35px;
+    margin: 15px 15px 10px 0px;
+    height: 50px;
+    border-radius: 100000000000px;
+}
+
+.otp-inpute {
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.otpcall {
+    display: flex;
+}
+
+.reserdOtp {
+    margin-left: 50px;
+}
+
+.reviceonCall {
+    margin-right: 50px;
+    position: absolute;
+    right: 10px;
+}
+
+#button {
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    margin: 15px 15px 10px 0px;
+    background-color: #114A91;
+    font-size: 16px;
+    color: #E8EEF8;
+}
+
+.checkdocs {
+    font-family: "Avenir Next Bold";
+    color: #929292;
+    font-size: medium;
+    text-decoration: underline;
+    margin: 10px 0px 10px 0px;
+}
+
+.float {
+    border-radius: 8px;
+    width: 30%;
+    height: 30%;
+    background: rgb(255, 255, 247);
+    position: absolute;
+    top: 110%;
+    transform: translateY(-90%);
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px #efe9e9;
+}
+
+.card {
+    display: flex;
+    margin-left: 10px;
+}
+
+.imgtest {
+    border-radius: 5px;
+}
+
+.belowCard {
+    margin: 150px 0px 10px 0px;
+    display: flex;
+    width: 100%;
+}
+
+.blc-left {
+    margin-left: 90px;
+    float: left;
+}
+
+.Advantage {
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.GMoney {
+    font-size: 35px;
+    color: blue;
+    margin: 1px;
+}
+
+.blc-center {
+    margin: 0 auto;
+}
+
+.handIcon-text {
+    font-family: "Avenir Next Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 12px;
+    margin-bottom: -5px;
+}
+
+.saveMoney {
+    display: flex;
+}
+
+.blc-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.rightIcon {
+    display: flex;
+    position: relative;
+}
+
+.services {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgb(228, 235, 233);
+}
+
+.sertext {
+    margin-bottom: -5px;
+}
+
+.red-line2 {
+    margin-bottom: 5px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 28%;
+}
+
+.service-box .icon {
+    margin-right: 10px;
+    color: #114A91;
+}
+
+.service-box ul {
+    list-style: none;
+    text-align: left;
+}
+
+.service-box ul li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.service-box ul li::before {
+    content: '✔';
+    color: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.btnCenter {
+    margin: 0 auto;
+    width: 30%;
+    height: 60px;
+}
+
+.handIcon-text-service {
+    font-family: "Avenir Next Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 12px;
+    margin-bottom: -5px;
+}
+
+.handIcon-text-heads {
+    font-family: "Avenir Next Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 12px;
+    margin-bottom: -5px;
+}
+
+.testimonial-card {
+    display: flex;
+    align-items: center;
+    background-color: #103d73;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.last-div {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    gap: 25px;
+}
+
+hr {
+    display: block;
+    width: 97%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1.5px;
+}
+
+.officeshead {
+    margin-left: 15px;
+    color: #0056b3;
+}
+
+.offices-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.offices-container {
+    display: flex;
+    gap: 5px;
+}
+
+.office {
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+}
+
+.office h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.office p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
